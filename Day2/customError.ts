@@ -8,7 +8,7 @@ try {
     login("","12345");
 } catch (error:unknown) {
     if(error instanceof Error){
-        console.log("Error is :",error.message);
+        console.log("Error is: ",error.message);
     }
 }
 finally{

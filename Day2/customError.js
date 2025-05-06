@@ -9,9 +9,12 @@ try {
 }
 catch (error) {
     if (error instanceof Error) {
-        console.log("Error is :", error.message);
+        console.log("Error is: ", error.message);
     }
 }
 finally {
     console.log("Always run");
 }
+//Output:
+// Error is : Username or password is not there
+// Always run
