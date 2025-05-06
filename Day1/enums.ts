@@ -7,6 +7,8 @@ enum Direction{
     c,
     d
 }
+let x:Direction=Direction.b;
+console.log(x);//1
 console.log(Direction.a);//0
 console.log(Direction.b);//1
 console.log(Direction.c);//2

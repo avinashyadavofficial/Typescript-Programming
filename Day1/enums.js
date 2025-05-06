@@ -7,6 +7,8 @@ var Direction;
     Direction[Direction["c"] = 2] = "c";
     Direction[Direction["d"] = 3] = "d";
 })(Direction || (Direction = {}));
+var x = Direction.b;
+console.log(x);
 console.log(Direction.a); //0
 console.log(Direction.b); //1
 console.log(Direction.c); //2
@@ -36,7 +38,7 @@ var C;
     C["North"] = "North";
     C["South"] = "South";
     C["East"] = "East";
-    C[C["West"] = void 0] = "West";
+    C["West"] = "West";
 })(C || (C = {}));
 console.log(C.North); //North
 console.log(C.South); //South
