@@ -1,10 +1,10 @@
-class LoginError extends Error {
-    constructor(message: string) {
-      super(message);
-      this.name = "LoginError";
-      Object.setPrototypeOf(this,LoginError.prototype);
+class LoginError extends Error{
+    constructor(message:string){
+        super(message);
+        this.name="Login Error";
+        Object.setPrototypeOf(this,LoginError.prototype);
     }
-  }
+}
   
   function validateLogin(username: string, password: string): void {
     if (!username || !password) {

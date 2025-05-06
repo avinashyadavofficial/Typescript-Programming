@@ -17,7 +17,7 @@ var LoginError = /** @class */ (function (_super) {
     __extends(LoginError, _super);
     function LoginError(message) {
         var _this = _super.call(this, message) || this;
-        _this.name = "LoginError";
+        _this.name = "Login Error";
         Object.setPrototypeOf(_this, LoginError.prototype);
         return _this;
     }
@@ -33,10 +33,11 @@ try {
     validateLogin("avinash", ""); // missing password
 }
 catch (err) {
-    if (err instanceof LoginError) {
+    if (err instanceof Error) {
         console.log("Custom Login Error:", err.message);
     }
     else {
         console.log("Some other error");
     }
 }
+//Custom Login Error: Missing credentials!
