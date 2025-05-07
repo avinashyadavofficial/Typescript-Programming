@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",            // where compiled JS files go
+    "rootDir": "./src",            // where TS files live
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true
+  },
+  "include": ["src/**/*"]
+}
+
+
+//in package .json
+//   "scripts": {
+//   "build": "tsc",
+//   "start": "node server/app.js",
+//   "watch": "tsc --watch"
+// },
