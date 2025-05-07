@@ -1,0 +1,25 @@
+// Nest object types: A Company has a CEO which is a Person object.
+type Person={
+    name:string,
+    age:number,
+    address:{
+        city:string
+    }
+}
+type Company={
+    companyName:string,
+    ceo:Person
+}
+const obj:Company={
+    companyName:"GE Vernova",
+    ceo:{
+        name:"Avinash",
+        age:21,
+        address:{
+            city:"Chennai"
+        }
+    }
+}
+console.log(obj);//{ companyName: 'GE Vernova', ceo: { name: 'Avinash', age: 21 } }
+console.log(obj.ceo.age);//21
+console.log(obj.ceo.address.city);//Chennai
