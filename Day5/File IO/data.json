@@ -1,0 +1,13 @@
+[
+    {
+      "username": "Avinash Yadav",
+      "isActive": true,
+      "languages": ["JavaScript", "TypeScript"]
+    },
+    {
+      "username": "Rahul Yadav",
+      "isActive": false,
+      "languages": ["JavaScript", "C++"]
+    }
+]
+  

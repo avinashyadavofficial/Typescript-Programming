@@ -1,0 +1,16 @@
+[
+  {
+    "username": "avi",
+    "active": true,
+    "roles": [
+      "admin"
+    ]
+  },
+  {
+    "username": "gaurav",
+    "active": true,
+    "roles": [
+      "editors"
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+I am writing into Output.txt file.
+Welcome Avinash Yadav
+AAaaaaa

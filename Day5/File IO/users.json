@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2,
+    "username": "rahul",
+    "role": "editor",
+    "active": true
+  },
+  {
+    "username": "carol",
+    "role": "viewer",
+    "active": true,
+    "id": 3
+  },
+  {
+    "username": "gaurav",
+    "role": "viewer",
+    "active": true,
+    "id": 4
+  },
+  {
+    "username": "gaurav",
+    "role": "viewer",
+    "active": true,
+    "id": 5
+  }
+]
